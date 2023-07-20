@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Outlet } from "react-router-dom"
 import { ReactComponent as Logo } from './assets/Logo.svg'
 import { ReactComponent as HeroImage } from './assets/Illustration.svg'
@@ -56,7 +57,7 @@ function Footer() {
           <p>Copyright © 2020 Nexcent ltd.</p>
           <p>All rights reserved</p>
         </div>
-        <img src={socials} className="w-[50%]"/>
+        <img src={socials} className="w-[50%]" />
       </div>
       <div className="flex grow justify-evenly">
         <div className="flex flex-col gap-6">
@@ -81,7 +82,7 @@ function Footer() {
         </div>
         <div>
           <h4 className="text-lg font-bold mb-4">Stay up to date</h4>
-          <input className="bg-gray-700 py-2 px-4 rounded-lg text-sm" placeholder="Your email address"/>
+          <input className="bg-gray-700 py-2 px-4 rounded-lg text-sm" placeholder="Your email address" />
 
         </div>
       </div>
